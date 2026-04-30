@@ -2,34 +2,32 @@
 
 ## Aviation Function
 
-Example: Maintenance records, parts inventory, scheduling, documentation, ground network.
+Example: Maintenance records
 
-## Digital Dependency
+## Digital/System Dependency
 
-What software, database, device, or network supports this function?
+Example: Maintenance tracking software
 
 ## Threat
 
-What could go wrong?
+Example: Record tampering
 
-## Impact
+## Operational Impact
 
-How could this affect safety, readiness, operations, compliance, or trust?
+Example: Bad airworthiness decision
 
-## Likelihood
+## Practical Control
 
-Low / Medium / High
+Example: Access control, audit logs, approval workflow
 
-## Severity
+## NIST SP 800-53 Rev. 5 Mapping
 
-Low / Medium / High / Critical
+Example: AC-2, AC-3, AU-2, AU-6, SI-7
 
-## Recommended Controls
+## NIST CSF 2.0 Function
 
-- 
-- 
-- 
+Example: Protect, Detect
 
-## Evidence or Notes
+## Interview Explanation
 
-Add screenshots, diagrams, or notes.
+Explain why this risk matters in operational aviation terms.

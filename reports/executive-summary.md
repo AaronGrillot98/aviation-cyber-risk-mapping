@@ -1,31 +1,34 @@
 # Executive Summary — Aviation Cyber Risk Mapping
 
-## Purpose
+## Overview
 
-This project maps aviation operational processes to cybersecurity risks and recommended controls.
+This project connects aviation operations to cybersecurity risk using a practical mapping method:
 
-## Key Finding
+```text
+Aviation operation → Digital dependency → Threat → Operational impact → Control → NIST mapping
+```
 
-Cybersecurity risks can affect aviation operations even when they do not directly involve aircraft systems. Maintenance records, parts inventory, scheduling, documentation, user accounts, and ground networks all support safety and readiness.
+## Why It Matters
 
-## Highest Priority Risks
+Aviation readiness depends on more than aircraft hardware. Maintenance records, parts tracking, scheduling systems, training databases, digital manuals, vendor portals, mobile devices, and ground networks all support operational decisions.
 
-1. Maintenance record integrity
-2. Parts traceability and inventory accuracy
-3. Ground network access
-4. User account compromise
-5. GPS/navigation data trust concerns
+If those systems are compromised, altered, unavailable, or misleading, the result can become a readiness, safety, compliance, or operational issue.
 
-## Recommendations
+## Framework Alignment
 
-- Enforce MFA and role-based access
-- Protect maintenance and inventory data integrity
-- Maintain audit logs
-- Segment ground networks
-- Review access regularly
-- Train users on phishing and data integrity risks
-- Build incident reporting and evidence processes
+The project aligns risks to:
 
-## Interview Summary
+- NIST SP 800-53 Rev. 5 for control-level mapping.
+- NIST Cybersecurity Framework 2.0 for high-level risk communication.
 
-This project demonstrates how aviation maintenance experience can be applied to cybersecurity by identifying how digital systems support operational safety and readiness.
+## Top Risk Themes
+
+1. Data integrity failures can affect airworthiness and traceability decisions.
+2. Account compromise can disrupt scheduling, maintenance workflows, and vendor access.
+3. Weak audit trails make tampering difficult to investigate.
+4. Mobile and remote access increase exposure if not controlled.
+5. Documentation integrity matters because maintainers rely on accurate technical data.
+
+## Key Takeaway
+
+Cyber risk in aviation is not only about aircraft hacking. It includes the digital systems that support readiness, maintenance, logistics, documentation, and decision-making.
